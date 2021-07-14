@@ -7,6 +7,9 @@ skills VARCHAR (500)
 )
 
 ## Part 2: Test it with SQL
+SELECT employer, name
+FROM job
+WHERE (location = "St. Louis City");
 
 ## Part 3: Test it with SQL
 
