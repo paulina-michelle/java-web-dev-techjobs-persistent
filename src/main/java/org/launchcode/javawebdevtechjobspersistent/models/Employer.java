@@ -18,16 +18,17 @@ public class Employer extends AbstractEntity {
     @NotBlank(message = "Location is required")
     private String location;
 
+    
+    @OneToMany
+    @JoinColumn
+    private List<Job> jobs = jobs<> {
+    }
+
     public String getLocation() {
         return location;
     }
 
     public void setLocation(String location) {
         this.location = location;
-    }
-
-    @OneToMany
-    @JoinColumn
-    private List<Job> jobs (<>){
     }
 }
