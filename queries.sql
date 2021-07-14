@@ -1,9 +1,8 @@
 ## Part 1: Test it with SQL
 CREATE TABLE job (
 id INTEGER PRIMARY KEY AUTO_INCREMENT,
+employer VARCHAR (250)
 name VARCHAR
-employer VARCHAR (25)
-location VARCHAR
 skills VARCHAR (500)
 )
 
