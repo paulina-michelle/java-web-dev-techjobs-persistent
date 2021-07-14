@@ -14,4 +14,13 @@ public class Skill extends AbstractEntity {
     @NotBlank(message = "Description is required")
     @Size(max = 500)
     private String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
+
